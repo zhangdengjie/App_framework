@@ -1,0 +1,1 @@
+用来存放View的基类，例如BaseAcitivity、BaseFragment，甚至可以添加某些不同actionbar主题的Base类；

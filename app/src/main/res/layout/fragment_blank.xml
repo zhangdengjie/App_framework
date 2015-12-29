@@ -1,0 +1,25 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zdj.app.ui.fragment.BlankFragment">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/my_image_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            fresco:fadeDuration="300"
+            fresco:placeholderImage="@mipmap/iconfont_morentupian"
+            />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

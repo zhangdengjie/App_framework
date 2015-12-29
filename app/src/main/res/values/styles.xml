@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--  ToolBar颜色  -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--  状态栏颜色  -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 两种继承方式:
+        方式一：通过parent属性用来继承android已经定义好的style
+        方式二：如果要继承自定义的style，不需要通过parent属性，
+        只要style的name以需要继承的style的name开始后跟新的style的name，中间用“.”隔开
+        AppTheme.NoActionBar使用的是方式2
+      -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>
